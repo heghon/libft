@@ -85,5 +85,6 @@ char				*ft_strsubfree(char *s1, unsigned int start, size_t len);
 char				*ft_strtrim(char const *s);
 int					ft_tolower(int c);
 int					ft_toupper(int c);
+int					get_next_line(const int fd, char **line);
 
 #endif
